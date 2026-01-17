@@ -312,13 +312,6 @@
                                     <segue destination="F0y-HE-eve" kind="push" id="1xZ-eI-zsL"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" misplaced="YES" image="multiply" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="TDK-fd-Ahl">
-                                <rect key="frame" x="339" y="164" width="38" height="40"/>
-                                <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="47" id="7OS-nH-7K5"/>
-                                </constraints>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add Vehicle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jlV-Hh-5jo">
                                 <rect key="frame" x="50" y="318" width="293" height="68"/>
                                 <constraints>
@@ -334,7 +327,6 @@
                         <constraints>
                             <constraint firstItem="UjO-0p-Us8" firstAttribute="trailing" secondItem="Vl0-Ip-NIO" secondAttribute="trailing" constant="68" id="1FS-yD-GB6"/>
                             <constraint firstItem="UjO-0p-Us8" firstAttribute="trailing" secondItem="jlV-Hh-5jo" secondAttribute="trailing" constant="50" id="8GH-aN-CKL"/>
-                            <constraint firstItem="TDK-fd-Ahl" firstAttribute="top" secondItem="UjO-0p-Us8" secondAttribute="top" constant="101.33" id="A3o-aj-ZYh"/>
                             <constraint firstItem="jlV-Hh-5jo" firstAttribute="leading" secondItem="UjO-0p-Us8" secondAttribute="leading" constant="50" id="QSC-LH-lH0"/>
                             <constraint firstItem="l09-7C-s4U" firstAttribute="leading" secondItem="UjO-0p-Us8" secondAttribute="leading" constant="68" id="SQr-Gy-419"/>
                             <constraint firstItem="jlV-Hh-5jo" firstAttribute="top" secondItem="UjO-0p-Us8" secondAttribute="top" constant="146" id="Y5y-Z0-kkG"/>
@@ -344,7 +336,6 @@
                             <constraint firstItem="l09-7C-s4U" firstAttribute="top" secondItem="jlV-Hh-5jo" secondAttribute="bottom" constant="43" id="hDj-Oy-lKX"/>
                             <constraint firstItem="UjO-0p-Us8" firstAttribute="trailing" secondItem="x4m-3Q-Cow" secondAttribute="trailing" constant="68" id="ocM-lz-Noe"/>
                             <constraint firstItem="x4m-3Q-Cow" firstAttribute="leading" secondItem="UjO-0p-Us8" secondAttribute="leading" constant="68" id="tCt-XL-wfq"/>
-                            <constraint firstItem="UjO-0p-Us8" firstAttribute="trailing" secondItem="TDK-fd-Ahl" secondAttribute="trailing" constant="16" id="ygy-bp-ujC"/>
                             <constraint firstItem="UjO-0p-Us8" firstAttribute="trailing" secondItem="l09-7C-s4U" secondAttribute="trailing" constant="68" id="ylX-g0-iaZ"/>
                         </constraints>
                     </view>
@@ -1107,7 +1098,6 @@
         <image name="lightspectrum.horizontal" catalog="system" width="128" height="123"/>
         <image name="line.3.horizontal" catalog="system" width="128" height="65"/>
         <image name="magnifyingglass" catalog="system" width="128" height="117"/>
-        <image name="multiply" catalog="system" width="128" height="111"/>
         <systemColor name="systemGray6Color">
             <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
